@@ -1,0 +1,43 @@
+main {
+  padding: 0;
+  height: 490px;
+  background-image: url("../images/Mogo_Design_Banniere.png");
+  background-size: cover;
+  font-family: "Gotham Black", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main h1 {
+  font-size: 5em;
+  /* text-transform: uppercase; */
+}
+
+.typewriter h1 {
+  overflow: hidden;
+  border-right: 10px solid rgb(7, 30, 235);
+  letter-spacing: 10px;
+  animation: typing 2s steps(30, end), blink-carret 0.75s step-end infinite;
+  margin: 0 auto;
+  white-space: nowrap;
+}
+
+@keyframes typing {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes blink-carret {
+  0%,
+  100% {
+    border-color: transparent;
+  }
+  50% {
+    border-color: rgb(7, 30, 235);
+  }
+}

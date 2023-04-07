@@ -1,0 +1,64 @@
+.navbar {
+  display: flex;
+  background-color: rgb(30, 30, 30);
+  z-index: 2;
+}
+.navbar.top {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+.navbar.bottom {
+  justify-content: space-evenly;
+}
+
+.navbar nav {
+  display: flex;
+  font-family: "Gotham", sans-serif;
+  font-weight: 500;
+  font-size: 1.2em;
+}
+.navbar.top nav {
+  width: 100%;
+  align-items: center;
+  justify-content: flex-end;
+}
+.navbar.bottom nav {
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+.navbar nav a {
+  text-transform: capitalize;
+  text-decoration: none;
+  transition: 0.2s;
+  letter-spacing: 2px;
+}
+.navbar.top nav a {
+  margin-right: 50px;
+}
+
+.navbar nav a:hover {
+  color: rgb(7, 30, 235);
+}
+
+.navbar .logo {
+  height: 100px;
+  padding: 10px;
+}
+
+.socials {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  /* align-items: center; */
+}
+
+.socials img {
+  height: 40px;
+}
+
+footer {
+  padding: 20px 0px;
+}
