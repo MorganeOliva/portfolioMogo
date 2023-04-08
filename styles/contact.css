@@ -1,26 +1,30 @@
 main {
-  padding: 0;
-  height: 490px;
   background-image: url("../images/Mogo_Design_Banniere.png");
   background-size: cover;
-  font-family: "Gotham Black", sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 100px;
 }
 
-main h1 {
-  font-size: 5em;
-  /* text-transform: uppercase; */
+main .side-title {
+  font-family: "Gotham Black", sans-serif;
+  letter-spacing: 10px;
+  font-size: 6em;
+  position: absolute;
+  transform: translate(-300px, -240px);
+  z-index: 1;
 }
 
 .typewriter h1 {
+  font-size: 2em;
   overflow: hidden;
-  border-right: 10px solid rgb(7, 30, 235);
-  letter-spacing: 10px;
+  border-right: 5px solid white;
+  letter-spacing: 5px;
   animation: typing 2s steps(30, end), blink-carret 0.75s step-end infinite;
   margin: 0 auto;
   white-space: nowrap;
+  font-family: "Gotham Black", sans-serif;
 }
 
 @keyframes typing {
@@ -38,6 +42,41 @@ main h1 {
     border-color: transparent;
   }
   50% {
-    border-color: rgb(7, 30, 235);
+    border-color: white;
   }
+}
+
+.contact-card {
+  padding: 100px;
+  border-radius: 25px;
+  background-color: rgb(7, 30, 235);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.contact-card hr {
+  width: 70%;
+}
+
+.contact-card p {
+  font-size: 1.2em;
+  font-family: "Gotham", sans-serif;
+}
+
+.contact-card a {
+  font-size: 1.2em;
+  font-family: "Gotham", sans-serif;
+  text-decoration: none;
+}
+
+.contact-card a:hover {
+  text-decoration: underline;
+}
+
+.contact-card p.name {
+  font-size: 1.5em;
+  font-weight: bold;
 }

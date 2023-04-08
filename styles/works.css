@@ -138,7 +138,3 @@ main .side-title {
   background: rgb(7, 30, 235);
   color: white;
 }
-
-.project1::before {
-  content: "-Works";
-}
