@@ -9,29 +9,6 @@
   object-fit: cover;
   -o-object-fit: cover;
 }
-.banner:hover::before,
-.banner:hover::after {
-  height: 0;
-}
-.banner::before,
-.banner::after {
-  content: "";
-  height: 20px;
-  width: 20px;
-  border-radius: 50%;
-  position: absolute;
-  display: inline-block;
-  top: 48.45%;
-  background-color: #1e1e1e;
-  opacity: 1;
-  transition: 0.75s;
-}
-.banner::before {
-  left: 48.5%;
-}
-.banner::after {
-  left: 43.2%;
-}
 
 main {
   padding: 80px;

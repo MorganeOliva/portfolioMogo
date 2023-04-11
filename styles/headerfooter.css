@@ -12,6 +12,12 @@
   justify-content: space-evenly;
 }
 
+.navbar .icon {
+  display: none;
+  height: 75px;
+  cursor: pointer;
+}
+
 .navbar nav {
   display: flex;
   font-family: "Gotham", sans-serif;
@@ -47,7 +53,9 @@
   height: 100px;
   padding: 10px;
 }
-
+.navbar.top .logo {
+  margin-right: 50px;
+}
 .socials {
   display: flex;
   flex-direction: column;
@@ -60,5 +68,34 @@
 }
 
 footer {
-  padding: 20px 0px;
+  padding: 20px 0;
 }
+
+@media (max-width: 550px) {
+  .navbar.top {
+    justify-content: space-between;
+  }
+  .navbar.top nav {
+    display: none;
+  }
+  /* .navbar.top nav a {
+    display: none;
+  } */
+  .navbar.bottom nav {
+    font-size: 0.8em;
+    gap: 5px;
+  }
+  .navbar .icon {
+    display: block;
+  }
+  .navbar .logo {
+    height: 75px;
+    padding: 5px;
+  }
+  .socials img {
+    height: 30px;
+  }
+  footer {
+    padding: 10px 0;
+  }
+} ;
