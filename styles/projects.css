@@ -44,11 +44,19 @@
   background-color: white;
   display: grid;
   place-items: center;
-  padding: 10px;
   margin-bottom: 20px;
 }
 
-.wrapper-img img {
+.wrapper-img.polepixel {
+  padding: 10px;
+}
+.wrapper-img.polepixel img {
+  height: 200px;
+}
+.wrapper-img.kili {
+  background-color: rgb(157, 1, 208);
+}
+.wrapper-img.kili img {
   height: 200px;
 }
 
@@ -81,15 +89,17 @@
   justify-content: center;
 }
 
-.grid .mask {
+.grid .mask.polepixel {
   background-color: rgb(7, 30, 235);
 }
-
+.grid .mask.kili {
+  background-color: rgb(157, 1, 208);
+}
+.grid .image {
+  padding: 10px;
+}
 .grid .image img {
   height: 100%;
-  /* width: 100%; */
-  /* object-fit: contain;
-  -o-object-fit: contain;*/
 }
 
 .grid .mask img {
