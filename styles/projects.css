@@ -24,7 +24,7 @@
   font-family: "Gotham", sans-serif;
   display: flex;
   width: 100%;
-  gap: 200px;
+  justify-content: space-between;
 }
 .intro1 {
   white-space: nowrap;
@@ -39,26 +39,28 @@
 .skill-used {
   margin-left: 30px;
 }
-
+.intro2 {
+  width: 750px;
+}
 .wrapper-img {
   background-color: white;
   display: grid;
   place-items: center;
   margin-bottom: 20px;
+  width: 100%;
+  height: 200px;
 }
 
-.wrapper-img.polepixel {
-  padding: 10px;
-}
 .wrapper-img.kili {
   background-color: rgb(157, 1, 208);
 }
 .wrapper-img.espacemalraux {
   padding: 10px;
   background-color: rgb(12, 27, 155);
+  /* box-sizing: bor-box; */
 }
 .wrapper-img img {
-  height: 200px;
+  height: 100%;
 }
 
 .summary {
@@ -109,12 +111,15 @@
 .grid .mask.kili {
   background-color: rgb(157, 1, 208);
 }
+.grid .mask.tresbeaujolais {
+  background-color: rgb(203, 207, 235);
+}
 .grid .image {
   padding: 10px;
+  overflow: hidden;
 }
 .grid .image.espacemalraux {
   padding: 0;
-  overflow: hidden;
 }
 .grid .image.tresbeaujolais {
   padding: 0;
