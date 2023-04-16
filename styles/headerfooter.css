@@ -12,17 +12,11 @@
   justify-content: space-evenly;
 }
 
-.navbar .icon {
-  display: none;
-  height: 75px;
-  cursor: pointer;
-}
-
 .navbar nav {
   display: flex;
   font-family: "Gotham", sans-serif;
   font-weight: 500;
-  font-size: 1.2em;
+  font-size: 1.2vw;
 }
 .navbar.top nav {
   width: 100%;
@@ -42,20 +36,19 @@
   letter-spacing: 2px;
 }
 .navbar.top nav a {
-  margin-right: 50px;
+  margin-right: 4vw;
 }
 
 .navbar nav a:hover {
   color: rgb(7, 30, 235);
 }
-
 .navbar .logo {
-  height: 100px;
-  padding: 10px;
+  height: 6vw;
 }
 .navbar.top .logo {
-  margin-right: 50px;
+  padding: 1vw;
 }
+
 .socials {
   display: flex;
   flex-direction: column;
@@ -64,38 +57,9 @@
 }
 
 .socials img {
-  height: 40px;
+  height: 2.5vw;
 }
 
 footer {
-  padding: 20px 0;
+  padding: 1.2vw 0;
 }
-
-@media (max-width: 550px) {
-  .navbar.top {
-    justify-content: space-between;
-  }
-  .navbar.top nav {
-    display: none;
-  }
-  /* .navbar.top nav a {
-    display: none;
-  } */
-  .navbar.bottom nav {
-    font-size: 0.8em;
-    gap: 5px;
-  }
-  .navbar .icon {
-    display: block;
-  }
-  .navbar .logo {
-    height: 75px;
-    padding: 5px;
-  }
-  .socials img {
-    height: 30px;
-  }
-  footer {
-    padding: 10px 0;
-  }
-} ;
