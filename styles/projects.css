@@ -116,6 +116,9 @@
   padding: 0;
   overflow: hidden;
 }
+.grid .image.tresbeaujolais {
+  padding: 0;
+}
 .grid .image img {
   height: 100%;
 }
