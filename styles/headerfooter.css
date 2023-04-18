@@ -53,7 +53,6 @@
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  /* align-items: center; */
 }
 
 .socials img {
@@ -61,5 +60,5 @@
 }
 
 footer {
-  padding: 1.2vw 0;
+  padding: 1vw 0;
 }

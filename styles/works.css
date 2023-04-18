@@ -16,10 +16,10 @@ main {
 
 main .side-title {
   font-family: "Gotham Black", sans-serif;
-  letter-spacing: 10px;
-  font-size: 5em;
+  letter-spacing: 0.5vw;
+  font-size: 5vw;
   position: absolute;
-  transform: translate(-60px, -60px);
+  transform: translate(-4vw, -3.5vw);
   z-index: 1;
 }
 
@@ -85,11 +85,11 @@ main .side-title {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  gap: 20px;
+  gap: 1vw;
 }
 .card .info h1 {
   font-family: "Gotham Black", sans-serif;
-  font-size: 3em;
+  font-size: 3vw;
 }
 .card .info hr {
   width: 0;
@@ -101,7 +101,7 @@ main .side-title {
 .card .info a {
   font-family: "Gotham", sans-serif;
   text-decoration: none;
-  padding: 0.6em;
+  padding: 0.8vw;
   border-radius: 8px;
   background: white;
   color: black;

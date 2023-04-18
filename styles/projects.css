@@ -44,19 +44,21 @@
 }
 .wrapper-img {
   background-color: white;
-  display: grid;
-  place-items: center;
+
   margin-bottom: 20px;
   width: 100%;
   height: 200px;
 }
-
+.wrapper-img.center {
+  display: grid;
+  place-items: center;
+}
 .wrapper-img.kili {
   background-color: rgb(157, 1, 208);
 }
 .wrapper-img.espacemalraux {
   padding: 10px;
-  background-color: rgb(12, 27, 155);
+  background-color: rgb(38, 64, 111);
   /* box-sizing: bor-box; */
 }
 .wrapper-img img {
