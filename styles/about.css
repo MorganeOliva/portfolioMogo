@@ -1,0 +1,140 @@
+.banner {
+  height: 15vw;
+}
+
+.banner img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  -o-object-fit: cover;
+}
+
+main .side-title {
+  font-family: "Gotham Black", sans-serif;
+  letter-spacing: 0.5vw;
+  font-size: 5vw;
+  margin-top: 3vw;
+  margin-bottom: 3vw;
+  margin-left: 15vw;
+}
+
+.intro {
+  display: flex;
+  justify-content: center;
+  gap: 5vw;
+  margin-bottom: 6vw;
+}
+.intro img {
+  height: 18vw;
+}
+.intro .intro-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 35%;
+}
+.intro .intro-text h3 {
+  font-size: 2.5vw;
+  font-family: "Gotham Black", sans-serif;
+  margin-bottom: 1.5vw;
+}
+.intro .intro-text p {
+  font-family: "Gotham", sans-serif;
+  font-size: 1vw;
+}
+.intro .intro-text br {
+  margin-bottom: 1vw;
+}
+
+.education {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 6vw;
+}
+.education h3 {
+  font-size: 2.5vw;
+  font-family: "Gotham Black", sans-serif;
+  margin-bottom: 2vw;
+}
+.education .box-wrapper {
+  display: flex;
+  gap: 1.5vw;
+}
+.education .box-wrapper .box {
+  background-color: rgb(7, 30, 235);
+  border-radius: 5px;
+  padding: 1vw;
+  text-align: center;
+  width: 20vw;
+}
+.education .box-wrapper .box h4 {
+  font-size: 1.2vw;
+  font-weight: 100;
+  font-family: "Gotham Black", sans-serif;
+  margin-bottom: 0.5vw;
+}
+.education .box-wrapper .box p {
+  font-size: 1vw;
+  font-family: "Gotham", sans-serif;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3vw;
+  /* background-image: url("../images/BigBlueEye-HD.png"); */
+  background-size: 55vw;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.skills h3 {
+  font-size: 2.5vw;
+  font-family: "Gotham Black", sans-serif;
+  margin-bottom: 2vw;
+  align-self: center;
+}
+.skills .wrapper {
+  display: flex;
+}
+.skills .wrapper .softwares {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50%;
+}
+.skills .wrapper .softwares .software {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 2vw;
+  gap: 1vw;
+}
+.skills .wrapper .softwares img {
+  height: 4vw;
+}
+.skills .wrapper .softwares p {
+  font-family: "Gotham", sans-serif;
+  font-size: 1vw;
+}
+.skills .wrapper .comm-skills {
+  display: flex;
+  flex-direction: column;
+  gap: 2vw;
+  width: 50%;
+}
+.skills .wrapper .comm-skills .comm-skill {
+  border-left: 2px solid rgb(7, 30, 235);
+  padding-left: 2vw;
+}
+.skills .wrapper .comm-skills .comm-skill h4 {
+  font-size: 1.2vw;
+  font-weight: 100;
+  font-family: "Gotham Black", sans-serif;
+  margin-bottom: 0.5vw;
+}
+.skills .wrapper .comm-skills .comm-skill ul {
+  margin-left: 1vw;
+  font-family: "Gotham", sans-serif;
+  font-size: 1vw;
+}
