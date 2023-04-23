@@ -68,10 +68,6 @@ main {
   height: 100%;
 }
 
-.summary {
-  text-align: justify;
-}
-
 .deliverables {
   display: flex;
   align-items: center;

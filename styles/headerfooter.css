@@ -8,27 +8,26 @@
   position: -webkit-sticky;
   top: 0;
 }
-.navbar.bottom {
-  justify-content: center;
-  gap: 20vw;
-}
 
 .navbar nav {
   display: flex;
   font-family: "Gotham", sans-serif;
   font-weight: 500;
-  font-size: 1.2vw;
+  font-size: 1vw;
 }
 .navbar.top nav {
   width: 100%;
   align-items: center;
   justify-content: flex-end;
 }
+
 .navbar.bottom nav {
   flex-direction: column;
-  justify-content: center;
-  gap: 10px;
-  margin-left: -3vw;
+  justify-content: space-evenly;
+  align-items: center;
+
+  width: 50%;
+  /* margin-left: -3vw; */
 }
 
 .navbar nav a {
@@ -44,17 +43,22 @@
 .navbar nav a:hover {
   color: rgb(7, 30, 235);
 }
-.navbar .logo {
-  height: 6vw;
+.navbar.bottom .logo {
+  height: 5vw;
+}
+a.fit-img {
+  height: 5vw;
 }
 .navbar.top .logo {
-  padding: 1vw;
+  height: 100%;
+  padding: 0.5vw;
 }
-
 .socials {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  width: 50%;
+  align-items: center;
 }
 
 .socials svg {
@@ -68,5 +72,6 @@ svg path {
   fill: rgb(7, 30, 235);
 }
 footer {
-  padding: 1vw 0;
+  padding-top: 0.6vw;
+  padding-bottom: 1vw;
 }
