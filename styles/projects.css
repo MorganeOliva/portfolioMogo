@@ -1,3 +1,7 @@
+main {
+  margin-bottom: 2vw;
+}
+
 .overview {
   display: flex;
   flex-direction: column;
@@ -59,7 +63,6 @@
 .wrapper-img.espacemalraux {
   padding: 10px;
   background-color: rgb(38, 64, 111);
-  /* box-sizing: bor-box; */
 }
 .wrapper-img img {
   height: 100%;

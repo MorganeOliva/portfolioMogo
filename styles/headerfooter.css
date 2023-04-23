@@ -9,7 +9,8 @@
   top: 0;
 }
 .navbar.bottom {
-  justify-content: space-evenly;
+  justify-content: center;
+  gap: 20vw;
 }
 
 .navbar nav {
@@ -27,6 +28,7 @@
   flex-direction: column;
   justify-content: center;
   gap: 10px;
+  margin-left: -3vw;
 }
 
 .navbar nav a {
@@ -55,10 +57,16 @@
   justify-content: space-evenly;
 }
 
-.socials img {
-  height: 2.5vw;
+.socials svg {
+  height: 2.2vw;
+  transition: 0.2s;
 }
-
+svg path {
+  transition: 0.25s;
+}
+.socials svg:hover path {
+  fill: rgb(7, 30, 235);
+}
 footer {
   padding: 1vw 0;
 }

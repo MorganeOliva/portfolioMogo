@@ -83,10 +83,6 @@ main .side-title {
   display: flex;
   flex-direction: column;
   margin-bottom: 3vw;
-  /* background-image: url("../images/BigBlueEye-HD.png"); */
-  background-size: 55vw;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 .skills h3 {
   font-size: 2.5vw;
