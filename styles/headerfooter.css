@@ -34,6 +34,10 @@
   transition: 0.2s;
   letter-spacing: 2px;
 }
+.navbar nav a.active {
+  text-decoration: underline 2px rgb(7, 30, 235);
+  text-underline-offset: 1vw;
+}
 .navbar.top nav a {
   margin-right: 4vw;
 }
