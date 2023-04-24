@@ -1,10 +1,13 @@
+body {
+  overflow: hidden;
+}
 main {
   background-image: url("../images/Mogo_Design_Banniere.png");
   background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 6vw 0;
+  padding: 6.8vw 0;
 }
 
 main .side-title {
@@ -82,4 +85,9 @@ main .side-title {
 .contact-card p.name {
   font-size: 2vw;
   font-weight: bold;
+}
+
+footer {
+  padding-top: 0.6vw;
+  padding-bottom: 0.6vw;
 }
