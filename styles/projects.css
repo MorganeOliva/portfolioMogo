@@ -119,8 +119,14 @@ main {
 .grid .mask.kili {
   background-color: rgb(157, 1, 208);
 }
+.grid .image.tresbeaujolais {
+  background-color: rgb(203, 207, 235);
+}
 .grid .mask.tresbeaujolais {
   background-color: rgb(203, 207, 235);
+}
+.grid .mask.tresbeaujolais img {
+  object-fit: fill;
 }
 .grid .image {
   padding: 10px;
