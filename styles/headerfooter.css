@@ -41,7 +41,7 @@
 .navbar.top nav a.active::after {
   content: "";
   display: block;
-  height: 0.3vw;
+  height: 2px;
   width: 100%;
   margin-top: 0.5vw;
   background-color: rgb(7, 30, 235);
