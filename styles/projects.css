@@ -6,26 +6,25 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 40px;
+  margin-bottom: 2vw;
 }
 
 .intro {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 40px;
+  gap: 2vw;
   width: 1120px;
 }
 
 .intro h1 {
-  font-size: 4em;
+  font-size: 4vw;
   font-family: "Gotham Black", sans-serif;
-  letter-spacing: 5px;
+  letter-spacing: 0.5vw;
   place-self: flex-start;
 }
 
 .wrapper-intro {
-  font-family: "Gotham", sans-serif;
   display: flex;
   width: 100%;
   justify-content: space-between;
@@ -34,14 +33,20 @@ main {
   white-space: nowrap;
 }
 .intro1 h3 {
-  margin-bottom: 10px;
+  font-family: "Gotham Medium", sans-serif;
+  font-size: 1.5vw;
+  margin-bottom: 0.5vw;
+}
+.intro1 ul {
+  font-family: "Gotham", sans-serif;
+  font-size: 1vw;
 }
 .quick-description {
   list-style: none;
-  margin-bottom: 40px;
+  margin-bottom: 2vw;
 }
 .skill-used {
-  margin-left: 30px;
+  margin-left: 1.5vw;
 }
 .intro2 {
   width: 750px;
@@ -66,7 +71,10 @@ main {
 .wrapper-img img {
   height: 100%;
 }
-
+.summary {
+  font-family: "Gotham";
+  font-size: 1vw;
+}
 .deliverables {
   display: flex;
   align-items: center;

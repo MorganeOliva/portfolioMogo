@@ -61,6 +61,9 @@ main .side-title {
   width: 70%;
 }
 
+.contact-card .name {
+  font-family: "Gotham Medium", sans-serif;
+}
 .contact-card p {
   font-size: 1.25vw;
   font-family: "Gotham", sans-serif;
