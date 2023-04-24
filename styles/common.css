@@ -1,12 +1,12 @@
 @font-face {
   font-family: "Gotham";
   font-style: normal;
-  src: local("Gotham"), url("../fonts/Gotham-Font/GothamLight.ttf");
+  src: local("Gotham"), url("../fonts/Gotham-Font/GothamLight.otf");
 }
 @font-face {
   font-family: "Gotham Medium";
   font-style: normal;
-  src: local("Gotham Medium"), url("../fonts/Gotham-Font/GothamMedium.ttf");
+  src: local("Gotham Medium"), url("../fonts/Gotham-Font/GothamMedium.otf");
 }
 @font-face {
   font-family: "Gotham Black";
