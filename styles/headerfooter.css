@@ -34,12 +34,17 @@
   transition: 0.2s;
   letter-spacing: 2px;
 }
-.navbar nav a.active {
-  text-decoration: underline 2px rgb(7, 30, 235);
-  text-underline-offset: 1vw;
-}
+
 .navbar.top nav a {
   margin-right: 4vw;
+}
+.navbar.top nav a.active::after {
+  content: "";
+  display: block;
+  height: 0.3vw;
+  width: 100%;
+  margin-top: 0.5vw;
+  background-color: rgb(7, 30, 235);
 }
 
 .navbar nav a:hover {
@@ -64,7 +69,7 @@ a.fit-img {
 }
 
 .socials svg {
-  height: 2.2vw;
+  height: 2vw;
   transition: 0.2s;
 }
 svg path {
