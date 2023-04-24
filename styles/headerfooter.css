@@ -25,9 +25,7 @@
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-
   width: 50%;
-  /* margin-left: -3vw; */
 }
 
 .navbar nav a {
