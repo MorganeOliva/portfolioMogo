@@ -26,8 +26,8 @@ Le site comprend les fonctionnalités suivantes :
 
 ## Pour commencer
 
-Pour voir le site et profiter de toutes ses fonctionnalités incroyables, il suffit de naviguer vers https://morganeoliva.com dans votre navigateur web.
+Pour voir le site et profiter de toutes ses fonctionnalités incroyables, il suffit de naviguer vers https://morganeoliva.github.io/portfolioMogo/ dans votre navigateur web.
 
 ## Contact 
 
-Si vous avez des questions sur le site ou si vous souhaitez contacter Morgane, n'hésitez pas à utiliser le formulaire de contact sur la page de contact du site. De plus, veuillez noter que toutes les images et les travaux présentées sur le site appartiennent à Morgane Oliva et ne doivent pas être utilisées sans sa permission. Si vous souhaitez utiliser certaines images, veuillez la contacter via la page de contact sur le site.
+Si vous avez des questions sur le site ou si vous souhaitez contacter Morgane, n'hésitez pas à utiliser les coordonnées sur la page de contact du site. De plus, veuillez noter que toutes les images et les travaux présentées sur le site appartiennent à Morgane Oliva et ne doivent pas être utilisées sans sa permission. Si vous souhaitez utiliser certaines images, veuillez la contacter via la page de contact sur le site.
