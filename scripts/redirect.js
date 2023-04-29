@@ -1,1 +1,1 @@
-window.location.replace("works.html");
+window.location.replace("about.html");
