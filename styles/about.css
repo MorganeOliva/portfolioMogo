@@ -1,3 +1,13 @@
+body {
+  background: linear-gradient(
+    180deg,
+    rgba(30, 30, 30, 1) 40%,
+    rgba(18, 20, 33, 1) 55%,
+    rgba(0, 6, 55, 1) 70%,
+    rgba(18, 20, 33, 1) 85%,
+    rgba(30, 30, 30, 1) 100%
+  );
+}
 .banner {
   height: 19.7vw;
   position: relative;
