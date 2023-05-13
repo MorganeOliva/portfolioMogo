@@ -1,19 +1,35 @@
 .banner {
-  height: 15vw;
+  height: 19.7vw;
+  position: relative;
+  display: flex;
+  align-items: center;
 }
 
 .banner img {
   height: 100%;
-  width: 100%;
-  object-fit: cover;
-  -o-object-fit: cover;
+  position: absolute;
+  object-fit: contain;
+  -o-object-fit: contain;
+  z-index: -1;
 }
 
+.banner figure {
+  padding: 0 30vw;
+  font-family: "Gotham", sans-serif;
+  font-size: 1.5vw;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 0.1vw;
+  text-shadow: 3px 3px 3px #071eeb;
+}
+.banner figure blockquote {
+  margin-bottom: 1vw;
+}
 main .side-title {
   font-family: "Gotham Black", sans-serif;
   letter-spacing: 0.5vw;
   font-size: 5vw;
-  margin-top: 3vw;
+  margin-top: 2vw;
   margin-bottom: 3vw;
   margin-left: 15vw;
 }
@@ -36,7 +52,15 @@ main .side-title {
 .intro .intro-text h3 {
   font-size: 2.5vw;
   font-family: "Gotham Black", sans-serif;
-  margin-bottom: 1.5vw;
+  margin-bottom: 1vw;
+  color: rgb(7, 30, 235);
+}
+.intro .intro-text h4 {
+  font-size: 1.5vw;
+  font-family: "Gotham Black", sans-serif;
+  margin-bottom: 1vw;
+  font-style: italic;
+  color: rgb(7, 30, 235);
 }
 .intro .intro-text p {
   font-family: "Gotham", sans-serif;
