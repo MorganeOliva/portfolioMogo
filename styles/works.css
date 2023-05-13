@@ -1,5 +1,6 @@
 .banner {
-  height: 15vw;
+  height: 16vw;
+  overflow: hidden;
 }
 
 .banner img {
@@ -7,6 +8,7 @@
   width: 100%;
   object-fit: cover;
   -o-object-fit: cover;
+  transform: scale(1.4);
 }
 
 main {
