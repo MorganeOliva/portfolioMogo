@@ -44,7 +44,7 @@
           <h3>Hello !</h3>
           <h4>Bienvenue sur mon portfolio</h4>
           <p>
-            Je suis Morgane Oliva, du haut de mes 24 ans, je suis une fille
+            Je suis Morgane Oliva, du haut de mes <span id="age"></span> ans, je suis une fille
             curieuse, toujours à la recherche de nouveaux challenges.<br />Après
             2 ans d&#039;alternance au sein de différentes entreprises de la
             région Lyonnaise, je suis désormais prête à commencer ma carrière
@@ -182,5 +182,22 @@
         </a>
       </div>
     </footer>
+    <script>
+      function getAge(birthDateString) {
+        const today = new Date();
+        const birthDate = new Date(birthDateString);
+        
+        let age = today.getFullYear() - birthDate.getFullYear();
+        const monthDiff = today.getMonth() - birthDate.getMonth();
+
+        if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < birthDate.getDate())) {
+          age--;
+        }
+
+        return age;
+      }
+
+      document.getElementById('age').innerHTML = getAge("1999-03-31")
+    </script>
   </body>
 </html>
