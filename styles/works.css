@@ -27,6 +27,7 @@ main .side-title {
 .grid {
   display: flex;
   gap: 1.5vw;
+  margin-bottom: 3vw;
 }
 
 .col {
