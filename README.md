@@ -1,33 +1,32 @@
-# Site Portfolio de Morgane Oliva
+# Portfolio Morgane Oliva
 
-Bienvenue sur le portfolio de Morgane Oliva, développé par Emeric Sailly.
-Ce site présente quelques travaux créatifs que Morgane a réalisé au cours des ces 5 années dans la création digitale.
+Portfolio en ligne de Morgane Oliva, Directrice Artistique Junior — développé par Emeric Sailly.
 
-## À propos de Morgane Oliva
+## À propos
 
-Morgane Oliva est une Directrice Artistique Junior avec 2 masters en poche et 2 ans d'expériences. Elle a travaillé sur une variété de projets, allant du print au digital, en passant par la création d'une entreprise de A à Z.
+Morgane Oliva est une Directrice Artistique Junior avec 2 masters et 2 ans d'expérience en création digitale. Ce site présente ses travaux print et digital.
 
-## Technologies Utilisées
+## Projets
 
-Le site a été développé en utilisant une variété de technologies, y compris :
+- **Frigo** — Projet photo sur le thème de la science-fiction (magazine, affiche, retouches)
+- **Ma.Ca Design** — Création d'un logo et d'une identité graphique pour une architecte d'intérieur
+- **Espace Malraux** — Identité visuelle pour un espace culturel
+- **Kili** — Projet d'édition et de mise en page
+- **Pôle Pixel** — Projet de communication digitale
+- **Tres Beaujolais** — Projet autour du vin et de la communication
 
-- HTML5
-- CSS3
-- JavaScript
+## Technologies
 
-## Fonctionnalités
+HTML5, CSS3, JavaScript — hébergé sur GitHub Pages.
 
-Le site comprend les fonctionnalités suivantes :
+## Site
 
-- Une page d'accueil qui présente les différents projets de Morgane.
-- 4 pages qui présentent les différents projets en profondeur.
-- Une page a propos qui décrit le parcours de Morgane et ses compétences.
-- Une page contact où les visiteurs peuvent facilement contacter Morgane.
-
-## Pour commencer
-
-Pour voir le site et profiter de toutes ses fonctionnalités incroyables, il suffit de naviguer vers https://morganeoliva.github.io/portfolioMogo/ dans votre navigateur web.
+**[morganeoliva.github.io/portfolioMogo](https://morganeoliva.github.io/portfolioMogo/)**
 
 ## Contact
 
-Si vous avez des questions sur le site ou si vous souhaitez contacter Morgane, n'hésitez pas à utiliser les coordonnées sur la page de contact du site. De plus, veuillez noter que toutes les images et les travaux présentées sur le site appartiennent à Morgane Oliva et ne doivent pas être utilisées sans sa permission. Si vous souhaitez utiliser certaines images, veuillez la contacter via la page de contact sur le site.
+Via la page contact du site.
+
+---
+
+*Toutes les images et travaux présentés appartiennent à Morgane Oliva. Ne pas reproduire sans autorisation.*
